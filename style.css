@@ -19,14 +19,22 @@ body {
   font-family: sans-serif;
   background-color: #847577;
 }
-
+.testimonial-section {
+  background-color: #5f5455;
+  padding: 40px;
+  border-radius: 10px;
+}
+.section-h2 {
+  color: #fcfcfc;
+  font-weight: 600;
+}
 .container {
   background-color: aliceblue;
   border-radius: 10px;
   width: 1000px;
   margin: 0 auto;
   box-shadow: 2px 4px 30px rgba(22, 2, 2, 0.519);
-  padding: 20px;
+  padding: 50px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -39,8 +47,12 @@ footer {
 
 h2 {
   margin-bottom: 48px;
+  font-size: 1.1rem;
 }
-
+.section-h2 {
+  font-size: 1.7rem;
+  line-height: 1.9rem;
+}
 .grid-3-cols {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -48,21 +60,34 @@ h2 {
 }
 .features-title {
   color: #252525;
+  font-size: 1.1rem;
   margin-bottom: 10px;
   line-height: 10px;
   font-weight: 600;
+}
+header h1 {
+  font-weight: 600;
+  font-size: 2.3rem;
 }
 .features-text {
   color: #444;
   line-height: 1.8rem;
   text-justify: inter-word;
 }
+section h2 {
+  font-weight: 600;
+  font-size: 2rem;
+}
 .btn--big {
   background-color: #847577;
-  color: rgb(213, 214, 215);
+  color: rgb(238, 239, 239);
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
   padding: 14px;
   text-decoration: none;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   border: 2px solid #847577;
 }
 .btn--big:hover {
@@ -117,10 +142,10 @@ img {
   font-style: italic;
   margin-bottom: 24px;
   line-height: 1.6rem;
-  color: #444;
+  color: #d1cdcd;
 }
 .testimonial-author {
-  color: #5f5455;
+  color: #d1cccc;
 }
 
 .chair-box {
@@ -150,21 +175,41 @@ h3 {
 .chair-price {
   color: rgba(255, 98, 0, 0.688);
   display: flex;
-  font-size: 1.1rem;
+  font-size: 1rem;
   justify-content: space-between;
 }
 .btn--small {
-  color: #d1cccc;
-  text-decoration: none;
+  color: #f0ecec;
+  font-size: 0.8rem;
   padding: 10px;
+  text-decoration: none;
   background-color: #5f5455;
   border-radius: 0.4rem;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  align-self: flex-start;
 }
 footer {
-  background-color: #444;
+  /* background-color: #444; */
   color: #8e8c8c;
   padding: 10px;
   line-height: 1.9rem;
-  border-radius: 2px;
-  margin-bottom: 25px;
+  border-radius: 10px;
+  margin-bottom: 1px;
+}
+
+figure strong {
+  font-weight: 700;
+  color: #252525;
+  font-size: 1.4rem;
+}
+.section-h2 {
+  font-size: 1.4rem;
+}
+figure {
+  /* border: 2px solid #8e8c8c; */
+  border-radius: 10px;
+  box-shadow: 2px 4px 20px rgba(214, 210, 210, 0.519);
 }
