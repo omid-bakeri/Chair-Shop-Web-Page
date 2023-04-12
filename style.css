@@ -17,11 +17,18 @@ FONT SIZE SYSTEM (px)
 /* ------------------------ */
 body {
   font-family: sans-serif;
+  background-color: #847577;
 }
 
 .container {
-  width: 960px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  width: 1000px;
   margin: 0 auto;
+  box-shadow: 2px 4px 30px rgba(22, 2, 2, 0.519);
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 header,
@@ -40,13 +47,28 @@ h2 {
   column-gap: 80px;
 }
 .features-title {
+  color: #252525;
   margin-bottom: 10px;
+  line-height: 10px;
+  font-weight: 600;
 }
 .features-text {
+  color: #444;
   line-height: 1.8rem;
   text-justify: inter-word;
 }
-
+.btn--big {
+  background-color: #847577;
+  color: rgb(213, 214, 215);
+  padding: 14px;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 2px solid #847577;
+}
+.btn--big:hover {
+  background-color: #5f5455;
+  transition: 0.6s ease;
+}
 /* ------------------------ */
 /* COMPONENT STYLES */
 /* ------------------------ */
@@ -70,9 +92,11 @@ h1 {
 
 .header-text {
   margin-bottom: 24px;
+  line-height: 1.8rem;
 }
 
 img {
+  border-radius: 5px;
   width: 100%;
 }
 
@@ -92,6 +116,11 @@ img {
 .testimonial-text {
   font-style: italic;
   margin-bottom: 24px;
+  line-height: 1.6rem;
+  color: #444;
+}
+.testimonial-author {
+  color: #5f5455;
 }
 
 .chair-box {
@@ -119,6 +148,23 @@ h3 {
 }
 
 .chair-price {
+  color: rgba(255, 98, 0, 0.688);
   display: flex;
+  font-size: 1.1rem;
   justify-content: space-between;
+}
+.btn--small {
+  color: #d1cccc;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #5f5455;
+  border-radius: 0.4rem;
+}
+footer {
+  background-color: #444;
+  color: #8e8c8c;
+  padding: 10px;
+  line-height: 1.9rem;
+  border-radius: 2px;
+  margin-bottom: 25px;
 }
