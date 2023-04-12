@@ -213,3 +213,8 @@ figure {
   border-radius: 10px;
   box-shadow: 2px 4px 20px rgba(214, 210, 210, 0.519);
 }
+.fa-regular {
+  font-size: 1.8rem;
+  color: #5f5455;
+  margin-bottom: 30px;
+}
