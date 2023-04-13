@@ -273,3 +273,10 @@ figure {
   color: #5f5455;
   margin-bottom: 30px;
 }
+.ph {
+  color: #5f5455;
+  font-size: 24px;
+}
+.ph-shopping-cart-simple {
+  color: rgb(238, 239, 239);
+}
