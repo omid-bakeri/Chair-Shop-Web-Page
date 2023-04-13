@@ -8,6 +8,7 @@
       src="https://kit.fontawesome.com/339923af70.js"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css" />
 
     <!-- <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
@@ -16,6 +17,29 @@
   </head>
   <body>
     <div class="container">
+      <nav class="nav-menu">
+        <div class="nav-menu-part nav-menu-logo">logo</div>
+        <div class="nav-menu-part nav-menu-link">
+          <a class="nav-menu-menu-link" href="#">HOME</a>
+          <a class="nav-menu-menu-link" href="#">SHOP</a>
+          <a class="nav-menu-menu-link" href="#">CONTACT</a>
+          <a class="nav-menu-menu-link" href="#">ABOUT</a>
+        </div>
+        <button>LOGIN / SIGN IN</button>
+        <div class="nav-menu-part nav-menu-button"></div>
+        <!-- <img
+          class="page-icon"
+          src="icons/preview.svg"
+          width="40px"
+          height="40px"
+          alt="chair shop"
+        />
+        <a href="#">HOME</a>
+        <a href="#">SHOP</a>
+        <a href="#">CONTACT</a>
+        <a href="#">ABOUT</a>
+        <button>Login / Register</button> -->
+      </nav>
       <header>
         <div class="header-text-box">
           <h1>We design and build better chairs, for a better life</h1>
@@ -84,8 +108,210 @@
       </section>
 
       <section>
+        <h2>What makes our chairs special</h2>
+        <div class="grid-3-cols">
+          <div>
+            <i class="fa-regular fa-face-smile"></i>
+            <p class="features-title"><strong>Science meets design</strong></p>
+
+            <p class="features-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
+              similique adipisci praesentium.
+            </p>
+          </div>
+
+          <div>
+            <i class="fa-regular fa-heart"></i>
+            <p class="features-title">
+              <strong>Maximal comfort</strong>
+            </p>
+            <p class="features-text">
+              Reprehenderit optio placeat quasi excepturi architecto, explicabo
+              facilis perspiciatis error maxime magnam.
+            </p>
+          </div>
+
+          <div>
+            <i class="fa-regular fa-thumbs-up"></i>
+            <p class="features-title">
+              <strong>Ethical and sustainable</strong>
+            </p>
+            <p class="features-text">
+              Deleniti recusandae quidem nesciunt, eos dolorum iure, quaerat
+              omnis est laudantium voluptatem voluptas!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonial-section">
+        <div class="grid-3-cols">
+          <img src="customers.jpg" alt="People sitting on chairs" />
+          <div class="testimonial-box">
+            <h2 class="section-h2">
+              "We couldn't live without these chairs anymore"
+            </h2>
+            <blockquote class="testimonial-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+              repellat at, nesciunt quia cum minima ipsum culpa totam sapiente
+              recusandae earum debitis doloribus in quasi voluptatibus!
+            </blockquote>
+            <p class="testimonial-author">&mdash; Mary and Sarah Johnson</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
         <h2>Our bestselling chairs</h2>
         <div class="grid-3-cols">
+          <figure class="chair">
+            <img src="chair-1.jpg" alt="Chair" />
+            <div class="chair-box">
+              <h3>The Laid Back</h3>
+              <ul class="chair-details">
+                <li>
+                  <span>Leisure and relaxing</span>
+                </li>
+                <li>
+                  <span>Comfortable for 4h</span>
+                </li>
+                <li>
+                  <span>Vegan leather</span>
+                </li>
+                <li>
+                  <span>Weighs 16 kg</span>
+                </li>
+              </ul>
+              <div class="chair-price">
+                <strong>250€</strong>
+                <a href="#" class="btn btn--small">ADD TO CART</a>
+              </div>
+            </div>
+          </figure>
+
+          <figure class="chair">
+            <img src="chair-2.jpg" alt="Chair" />
+            <div class="chair-box">
+              <h3>The Worker Bee</h3>
+              <ul class="chair-details">
+                <li>
+                  <span>Work</span>
+                </li>
+                <li>
+                  <span>Comfortable for 8h</span>
+                </li>
+                <li>
+                  <span>Vegan leather</span>
+                </li>
+                <li>
+                  <span>Weighs 22 kg</span>
+                </li>
+              </ul>
+              <div class="chair-price">
+                <strong>525€</strong>
+                <a href="#" class="btn btn--small">ADD TO CART</a>
+              </div>
+            </div>
+          </figure>
+
+          <figure class="chair">
+            <img src="chair-3.jpg" alt="Chair" />
+            <div class="chair-box">
+              <h3>The Chair 4/2</h3>
+              <ul class="chair-details">
+                <li>
+                  <span>Leisure and relaxing</span>
+                </li>
+                <li>
+                  <span>Comfortable all day!</span>
+                </li>
+                <li>
+                  <span>Organic cotton</span>
+                </li>
+                <li>
+                  <span>Weighs 80 kg</span>
+                </li>
+              </ul>
+              <div class="chair-price">
+                <strong>1450€</strong>
+                <a href="#" class="btn btn--small">ADD TO CART</a>
+              </div>
+            </div>
+          </figure>
+          <figure class="chair">
+            <img src="chair-1.jpg" alt="Chair" />
+            <div class="chair-box">
+              <h3>The Laid Back</h3>
+              <ul class="chair-details">
+                <li>
+                  <span>Leisure and relaxing</span>
+                </li>
+                <li>
+                  <span>Comfortable for 4h</span>
+                </li>
+                <li>
+                  <span>Vegan leather</span>
+                </li>
+                <li>
+                  <span>Weighs 16 kg</span>
+                </li>
+              </ul>
+              <div class="chair-price">
+                <strong>250€</strong>
+                <a href="#" class="btn btn--small">ADD TO CART</a>
+              </div>
+            </div>
+          </figure>
+
+          <figure class="chair">
+            <img src="chair-2.jpg" alt="Chair" />
+            <div class="chair-box">
+              <h3>The Worker Bee</h3>
+              <ul class="chair-details">
+                <li>
+                  <span>Work</span>
+                </li>
+                <li>
+                  <span>Comfortable for 8h</span>
+                </li>
+                <li>
+                  <span>Vegan leather</span>
+                </li>
+                <li>
+                  <span>Weighs 22 kg</span>
+                </li>
+              </ul>
+              <div class="chair-price">
+                <strong>525€</strong>
+                <a href="#" class="btn btn--small">ADD TO CART</a>
+              </div>
+            </div>
+          </figure>
+
+          <figure class="chair">
+            <img src="chair-3.jpg" alt="Chair" />
+            <div class="chair-box">
+              <h3>The Chair 4/2</h3>
+              <ul class="chair-details">
+                <li>
+                  <span>Leisure and relaxing</span>
+                </li>
+                <li>
+                  <span>Comfortable all day!</span>
+                </li>
+                <li>
+                  <span>Organic cotton</span>
+                </li>
+                <li>
+                  <span>Weighs 80 kg</span>
+                </li>
+              </ul>
+              <div class="chair-price">
+                <strong>1450€</strong>
+                <a href="#" class="btn btn--small">ADD TO CART</a>
+              </div>
+            </div>
+          </figure>
           <figure class="chair">
             <img src="chair-1.jpg" alt="Chair" />
             <div class="chair-box">
